@@ -14,8 +14,7 @@ public class Ques2 {
         int j = (m - 1);
         int diff = Integer.MAX_VALUE;
 
-        int min = Integer.MAX_VALUE;
-
+        
         while (j < n) {
 
             diff = Math.min(diff, arr.get(j) - arr.get(i));
